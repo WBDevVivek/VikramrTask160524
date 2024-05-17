@@ -12,7 +12,7 @@ import { closeIcon, editIcon, userDetailsData, userIcon } from '@/app/data'
 const UserProfile = ({ modal,
   setModal }) => {
   return (
-    <div className={`z-20 absolute top-[500px] flex justify-center items-center w-full h-full `} >
+     <div className={`z-20 absolute  flex justify-center items-center w-full  `} >
 
 
       <div className={`  w-[80%] flex flex-col justify-between items-center rounded-[10px] bg-white px-[30px] pb-20 pt-[30px]  shadow-gray-300 shadow-[0_0px_10px_1px] `}>
