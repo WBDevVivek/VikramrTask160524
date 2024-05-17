@@ -15,7 +15,7 @@ const HomeContaint = ({ modal, setModal }) => {
                 <div className={`flex flex-col justify-center items-center`} >
                     <ImageComp className={`h-[369px] rounded-[30px] object-cover  w-full h-full`} imgurl={herosecimg} width={1340} height={369} alt="featuredimg" />
 
-                    <div className={` bg-white flex-wrap relative mt-[-10px] sm:mt-[-30px] lg:mt-[-58px] flex max-w-[1440px] w-[97%] items-start justify-center gap-[50px] rounded-[20px] px-[21px] pb-[30px] pt-[21px] shadow-xs flex-row `} >
+                    <div className={` bg-white flex-wrap relative mt-[-10px] sm:mt-[-30px] lg:mt-[-58px] flex max-w-[1440px] w-[97%] items-start justify-center gap-[50px] rounded-[20px] px-[21px] pb-[30px] pt-[21px] shadow-xs flex-row  shadow-gray-300 shadow-[0_0px_10px_1px] `} >
 
                         <div className={` flex flex-col sm:flex-row flex-wrap w-full items-center justify-between gap-[30px] flex-row`} >
 
